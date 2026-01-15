@@ -3,7 +3,7 @@ name: Sync Upstream KVideo
 on:
   schedule:
     # 每天北京时间早上8点同步 (UTC 0:00)
-    - cron: '0 0 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:  # 支持手动触发
 
 jobs:
